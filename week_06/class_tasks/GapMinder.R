@@ -1,3 +1,4 @@
+
 library(ggplot2)
 library(gapminder)
 library(dplyr)
@@ -22,3 +23,4 @@ p2+geom_point()+
   labs(x='Year',y='GDP per Capita',size='Population(milion)')+
   theme_bw()+
   ggsave('plot2.png',path='week_06/class_tasks', width = 15,units = 'in' )
+
