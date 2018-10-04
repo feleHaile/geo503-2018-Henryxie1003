@@ -9,6 +9,7 @@ library(maptools)
 install_github("adammwilson/DataScienceData")
 library(DataScienceData)
 library(rasterVis)
+library(raster)
 
 getData("GADM")
 data("southAfrica")
@@ -19,3 +20,5 @@ sa@data
 
 us<-getData('GADM',country='USA',level=1)
 plot(gSimplify(us,0.01))
+
+x<-raster()
