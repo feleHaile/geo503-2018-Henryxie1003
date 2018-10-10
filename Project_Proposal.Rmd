@@ -1,0 +1,40 @@
+[<i class="fa fa-file-code-o fa-1x" aria-hidden="true"></i> Download this File ](`r knitr::current_input()`).
+
+# Introduction to problem/question
+
+Buffalo experienced a relative long winter and heavy snow this year. Since temperature and precipitation is two main factor which affect the phenology, the abnormal winter may cause shifting on forest phenology. This project aims at tracking autumn and spring phenology of forest at Nature View Park in Buffalo and comparing the 2018 data with 2017. The analysis try to find how much the long winter and heavy snow will affect the forest growth. 
+
+# Inspiring Examples
+
+![](http://treephenology.ucdavis.edu/images/circle.jpg)
+
+The picture shows how the deciduous tree will change with seasons. \n
+\n
+\n
+
+![](http://www.pnas.org/content/pnas/114/27/6966/F1.medium.gif )
+![](http://www2.geog.ucl.ac.uk/~plewis/geogg124/_images/ndvi_annual_trend.png)
+ If we use a quantity index to show the change in whole year, it will be like the SOS (Start day of season) and EOS (End day of season) or NDVI in the two plots. \n
+ \n
+ \n
+
+
+![](https://www.researchgate.net/profile/Santonu_Goswami/publication/317498422/figure/fig2/AS:503717745131520@1497107077038/Seasonal-and-inter-annual-patterns-of-land-surface-phenology-mean-NDVI-for-all.png)
+
+If we can tracking the indexes for multiple years, the graph above can show the phenology change within different year. \n
+\n
+\n
+
+# Proposed data sources
+
+The phenology index calculation will be based on Landsat data. The satellite images are from October 2017 to May 2018 and same period for 2016 winter and 2017 spring. The Landsat data can be download from USGS Earth Explorer portal (https://earthexplorer.usgs.gov/). The climate data will also be included for demonstrating how much the climate is different between two years. Monthly temperature and precipitation data cover the same period with satellite data can be download from NCEI online database (https://gis.ncdc.noaa.gov/maps/ncei/summaries/monthly). 
+
+
+
+# Proposed methods
+
+For the remote sensing image preprocessing, the RStoolbox package will be useful in radiometric correction, cloud detection and masking and image scaling. The basic operation such as read and storage for Landsat data will rely on raster and rgdal package. The phenology package will be used to calculate two phenology indexes, NDVI and EVI. Tidyverse package and ggplot package can be helpful in tidy climate and phenology data and display the result with graph or plot.
+
+# Expected results
+
+A set of graphs and plots illustrate both the climate and phenology index change between two winters and analysis report shows the potential explanations for this situation. 
