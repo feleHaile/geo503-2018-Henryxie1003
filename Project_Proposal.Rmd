@@ -2,28 +2,24 @@
 
 # Introduction to problem/question
 
-Buffalo experienced a relative long winter and heavy snow this year. Since temperature and precipitation is two main factor which affect the phenology, the abnormal winter may cause shifting on forest phenology. This project aims at tracking autumn and spring phenology of forest at Nature View Park in Buffalo and comparing the 2018 data with 2017. The analysis try to find how much the long winter and heavy snow will affect the forest growth. 
+<font size='4'>Buffalo experienced a relative long winter and heavy snow this year. Since temperature and precipitation is two main factor which affect the phenology, the abnormal winter may cause shifting on forest phenology. This project aims at tracking autumn and spring phenology of forest at Nature View Park in Buffalo and comparing the 2018 data with 2017. The analysis try to find how much the long winter and heavy snow will affect the forest growth. </font>
 
 # Inspiring Examples
 
-![](http://treephenology.ucdavis.edu/images/circle.jpg)
+![](http://treephenology.ucdavis.edu/images/circle.jpg){width=400px}
 
-The picture shows how the deciduous tree will change with seasons. \n
-\n
-\n
+<font size=4>The picture shows how the deciduous tree will change with seasons. \n </font>
 
-![](http://www.pnas.org/content/pnas/114/27/6966/F1.medium.gif )
-![](http://www2.geog.ucl.ac.uk/~plewis/geogg124/_images/ndvi_annual_trend.png)
- If we use a quantity index to show the change in whole year, it will be like the SOS (Start day of season) and EOS (End day of season) or NDVI in the two plots. \n
- \n
- \n
+![](http://www.pnas.org/content/pnas/114/27/6966/F1.medium.gif ){width=400}
+![](http://www2.geog.ucl.ac.uk/~plewis/geogg124/_images/ndvi_annual_trend.png){width=400}
+ 
+ 
+<font size= 4>If we use a quantity index to show the change in whole year, it will be like the SOS (Start day of season) and EOS (End day of season) or NDVI in the two plots. \n </font>
 
 
-![](https://www.researchgate.net/profile/Santonu_Goswami/publication/317498422/figure/fig2/AS:503717745131520@1497107077038/Seasonal-and-inter-annual-patterns-of-land-surface-phenology-mean-NDVI-for-all.png)
+![](https://www.researchgate.net/profile/Santonu_Goswami/publication/317498422/figure/fig2/AS:503717745131520@1497107077038/Seasonal-and-inter-annual-patterns-of-land-surface-phenology-mean-NDVI-for-all.png){width=400}
 
-If we can tracking the indexes for multiple years, the graph above can show the phenology change within different year. \n
-\n
-\n
+<font size=4>If we can tracking the indexes for multiple years, the graph above can show the phenology change within different year. \n </font>
 
 # Proposed data sources
 
